@@ -1,0 +1,130 @@
+@import '../../assets/styles/variables/sizes.less';
+@import '../../assets/styles/variables/colors.less';
+@import '../../assets/styles/variables/typography.less';
+
+.search-farm {
+    input {
+        min-width: auto;
+        margin-bottom: 0;
+    }
+}
+.big-map-search {
+    position: absolute; 
+    top: @even_Spacing + @header_Height;
+    box-shadow:rgba(0, 0, 0, 0.3) 0px 1px 4px -1px;
+
+    input {
+        border: none;
+        margin-bottom: 0;
+    }
+  
+    .over-map {
+        background: @brand_White;
+        width: 43px;
+        height: 46px;
+        border-top-right-radius: @standard_BorderRadius;
+        border-bottom-right-radius: @standard_BorderRadius;
+        transition: all 0.2s;
+
+        &.uk-open {
+            pointer-events: none;
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+        .uk-icon {
+            padding: 0;
+            color: @brand_Gray;
+        }
+    }
+    .uk-dropdown {
+        &.uk-open {
+            margin-left: 0!important;
+            box-shadow: none;
+            border-top-right-radius: @standard_BorderRadius;
+            border-bottom-right-radius: @standard_BorderRadius;
+        }
+        .over-map {
+            width: 66px;
+            margin-left: -46px;
+            position: relative;
+            background: transparent;
+            &.uk-open {
+                margin-left: 300px;
+                pointer-events: all;
+                width: 36px;
+                .uk-icon {
+                    transform: rotate(180deg);
+                    transition: all 1s;
+                }
+            }
+        }
+    }
+}
+.map-popup-list {
+    padding: @small_Spacing 0;
+    border-bottom: 0.5px solid @standard_Border;
+    &:last-child {
+        border-bottom: none;
+    }
+    .orchad-title {
+        font-size: 20px;
+        text-transform: capitalize;
+    }
+    .farm-title {
+        font-size: 12px;
+        text-transform: capitalize;
+    }
+}
+.gm-style-iw.gm-style-iw-c {
+    border-radius: 0px;
+    padding: @smaller_Spacing @medium_Spacing!important;
+    transform: translate(-135%,-50%)!important;
+}
+.gm-style .gm-style-iw-t {
+    &:after {
+        transform: translate(-380%,150%) rotate(225deg)!important;
+    }
+}
+.gm-style-iw-d {
+    overflow: auto!important;
+}
+.gm-ui-hover-effect {
+    top: 0!important;
+    right: 0!important;
+}
+.gm-style-mtc, .gm-svpc, .gm-fullscreen-control {
+    display:none;
+}
+.map-orchad-details {
+    padding: 25px;
+    font-size: 12px;
+    color: @brand_Dark;
+    line-height: @mapPopup_LineHeight;
+    .orchad-name {
+        font-size: @mapPopup_Title;
+        margin-bottom: @smaller_Spacing;
+        font-weight: bold;
+    }
+    .orchad-farm-name {
+        font-size: @mapPopup_Subtitle;
+        margin-bottom: @small_Spacing;
+    }
+    .orchad-detail {
+        .label {
+            color: @brand_Text
+        }
+    }
+    .harvest-details {
+        margin-top: @small_Spacing;
+
+        .orchad-detail {
+            .value {
+                font-size: @mapPopup_Value;
+                line-height: @mapPopup_LineHeight;
+            }
+            &.bottom {
+                margin-top: @medium_Spacing;
+            }
+        }
+    }
+}

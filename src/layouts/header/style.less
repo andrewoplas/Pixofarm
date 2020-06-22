@@ -1,0 +1,21 @@
+@import '../../assets/styles/general.less';
+
+.header {
+    background-color: @header_Color;
+    height: @header_Height;
+    .header-content {
+        height: 100%;
+        max-width: @header_Width;
+    }
+    &.transparent {
+        position: absolute;
+        z-index: 999;
+        background: linear-gradient(180deg, @darkerHeader_ColorStart, @darkerHeader_ColorMiddle, @darkerHeader_ColorMiddle2, @darkerHeader_ColorMiddle3, @darkerHeader_ColorEnd);
+        width: 100%;
+        padding-bottom: @even_Spacing;
+
+        .logo {
+            filter: invert(100%) brightness(10);
+        }
+    }
+}

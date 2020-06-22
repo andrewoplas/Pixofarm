@@ -1,0 +1,173 @@
+@import '../../../assets/styles/general.less';
+
+.table {
+  padding: @small_Spacing 0;
+  .cell {
+	color: @brand_Dark;
+	font-size: @table_ContentFontSize;
+	word-wrap: break-word;
+	padding-right: @bigger_Spacing;
+	.uk-icon, &.name {
+		color: @brand_Green;
+	}
+	&.actions {
+	  max-width: @even_Spacing;
+	  cursor: pointer;
+	  color: @action_Color;
+	  padding: 0;
+
+	  .uk-icon {
+		width:100%;
+		min-width: 20px;
+	  }
+	}
+	&.orchards {
+		max-width: @triple_Spacing;
+		.users-orchads-list {
+			cursor: pointer;
+		}
+	}
+	&.name, &.orchardName {
+		color: @brand_Green;
+	}
+	&.groupName {
+		font-size: 30px;
+		line-height: 30px;
+		color: @brand_Dark;
+		p {
+			padding-right: @medium_Spacing;
+			font-weight: 700;
+		}
+	}
+	.uk-dropdown {
+	  color: @tooltip_Color;
+	  background: @tooltip_Background;
+	  border-radius: @secondary_BorderRadius;
+	  min-width: auto;
+	  padding: @halfEven_Spacing;
+
+	  &:before {
+		content:'';
+		display:block;
+		width:0;
+		height:0;
+		position:absolute;
+
+		border-left: 8px solid transparent;
+		border-right: 8px solid transparent;
+		border-bottom: 8px solid @tooltip_Background;
+		right: 12px;
+		top: -8px;
+	  }
+	  .action-links {
+		display: inline-flex;
+		flex-direction: column;
+		text-align: right;
+		padding: 0;
+		margin: 0;
+		align-items: flex-end;
+
+		li {
+		  padding:0;
+		  line-height: @standard_LineHeight;
+		}
+	  }
+
+	}
+  }
+}
+
+.uk-dropdown {
+	.sort-obj {
+		padding: 0;
+		li {
+		  display: flex;
+		  padding: @smaller_Spacing;
+		  cursor: pointer;
+		  transition: all 0.5s;    
+		  a {
+			color: @table_Header;
+			text-decoration: none;
+			min-width: @sort_Width;
+		  }
+		  &:hover, &.active {
+			a {
+			  color: @link_Color;
+			}
+		  }
+		}
+	}
+}
+.uk-icon {
+  padding-left: @smallest_Spacing;
+  transition: all 0.5s;
+}
+.desc {
+  .uk-icon {
+	transform: rotate(180deg);
+	padding-right: @smallest_Spacing;
+	padding-left:0;
+  }
+}
+
+.table-header {
+  padding: @small_Spacing 0;
+  padding-bottom: @medium_Spacing;
+  .cell {
+	color: @table_Header;
+	font-size: @table_HeaderFontSize;
+	font-weight: normal;
+	cursor: pointer;
+	&.name, &.orchardName {
+		color: @table_Header;
+	}
+  }
+}
+.table-row {
+	padding: @smaller_Spacing 0;
+	&:hover {
+		background: @table_RowHover;
+	}
+	&.no-hover {
+		&:hover {
+			background: none;
+		}
+	}
+}
+.sorting-area {
+	min-height: @sortingArea_Height;
+	.sort-item {
+		&:last-child {
+			margin-left: @small_Spacing;
+		}
+	}
+	.search {
+		.uk-dropdown {
+			box-shadow: none;
+		}
+	}
+	.uk-switcher {
+		li {
+			padding: 0;
+			padding-left: 5px;
+		}
+	}
+	.sorts {
+		.uk-open {
+			.indicator {
+				transform: rotate(180deg);
+				padding-right: @smallest_Spacing;
+				padding-left:0;
+			}
+		}
+		.button {
+			cursor: pointer;
+			color: @link_Color;
+		}
+	}
+}
+input {
+	&.search {
+		margin: 0;
+	}
+}

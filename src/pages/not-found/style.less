@@ -1,0 +1,44 @@
+.onboarding {
+	&.forofor {
+		.content-area {
+			justify-content: center;
+		}
+	}
+	.not-found {
+		border-left: 1px solid lightgrey;
+		background-color: #F9F9F9;
+		text-transform: uppercase;
+
+		.not-found-big {
+			font-size: 10vw;
+			text-transform: uppercase;
+			margin-bottom: 60px;
+			margin-top: 60px;
+		}
+		.not-found-medium {
+			font-size: 45px;
+			margin-bottom: 0;
+		}
+		.not-found-small {
+			font-size: 20px;
+			margin-bottom: 60px;
+		}
+		.account-links {
+			font-size: 18px;
+			display: flex;
+			flex-direction: column;
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+@media all and (min-width:1368px) {
+	.onboarding {
+		.not-found {
+			.not-found-big {
+				font-size: 88px;
+			}
+		}
+	}
+}

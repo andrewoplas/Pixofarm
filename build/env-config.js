@@ -1,0 +1,1 @@
+window.env = {"REACT_APP_REACT_CRYPTO_JS_KEY":"E8gUfJh4e77Ggk2QDuChs2c"}

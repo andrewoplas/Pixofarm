@@ -1,0 +1,31 @@
+@import '../../../assets/styles/variables/colors.less';
+@import '../../../assets/styles/variables/sizes.less';
+
+.mega-container {
+    width: 100vw;
+    height: 100vh;
+    left:0!important;
+    bottom: 0;
+    box-shadow: none;
+    padding-top: @main_Spacing!important;
+    margin-top: 0;
+
+    .item {
+        padding-bottom: @small_Spacing;
+    }
+    .uk-container {
+        box-sizing: border-box;
+        padding-left: @even_Spacing;
+        padding-right: @even_Spacing;
+    }
+    .main-items {
+        .main-items-list {
+            padding: 0;
+        }
+    }
+}
+.mega-open {
+    border: 1px solid @brand_Green;
+    padding: @smallest_Spacing;
+    border-radius: @standard_BorderRadius;
+}

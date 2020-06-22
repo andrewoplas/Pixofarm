@@ -1,0 +1,437 @@
+{
+  "routers": {
+    "login": "sign-in",
+    "logout": "sign-out"
+  },
+  "menu": {
+    "home": "Home",
+    "farms": "Farms",
+    "listFarms": "List farms DE",
+    "addFarm": "Add farm DE",
+    "searchFarm": "Search farm DE",
+    "orchads": "Orchads DE",
+    "listOrchads": "List orchads DE",
+    "addOrchads": "Add orchad",
+    "orchadDetails": "Orchad Details",
+    "users": "Users",
+    "listUsers": "List users DE",
+    "addUser": "Add user",
+    "userProfile": "User profile",
+    "userSettings": "User settings",
+    "corporates": "Corporations",
+    "listCorporates": "List corporations",
+    "addCorporate": "Add corporation",
+    "corporateDetails": "Corporate Details",
+    "holdings": "Holdings",
+    "listHoldings": "List holdings",
+    "addHolding": "Add Holding",
+    "addGroup": "Add group",
+    "inviteUser": "Invite user",
+    "map": "Map",
+    "login": "Login",
+    "logout": "Logout",
+    "my_account": "My account"
+  },
+  "footer": {
+    "links": {
+      "imprint": "Terms and Conditions"
+    }
+  },
+  "language_de": "German",
+  "language_en": "English",
+  "add_user": {
+    "fullName": "Full name",
+    "emailAddress": "Email Address",
+    "phoneNumber": "Phone Number",
+    "password": "Password",
+    "user_type": "User Type",
+    "corporation": "Corporation",
+    "holdings": "Holdings",
+    "inviteNewUser": "+ Invite a new user",
+    "update": "+ Update",
+    "update_title": "Update user",
+    "add_title": "Invite user",
+    "send_invitation": "+ Send invitation",
+    "req": {
+      "required": "Das Feld ist erforderlich",
+      "alpha": "Das Feld  ist erforderlich.",
+      "email": "Das Feld  ist erforderlich.",
+      "phone": "Das Feld ist erforderlich.",
+      "min": ":attribute muss mindestens :min:type."
+    },
+    "password_note": "A password will be generated automatically and sent to the new user via email.",
+    "support_note": {
+      "contact_support": "Contact support ",
+      "contact_text": "if you would like to assign advanced permissions to the newly added user."
+    }
+  },
+  "listing": {
+    "actions": {
+      "edit": "Edit",
+      "suspend": "Suspend",
+      "reassign": "Reassign"
+    },
+    "sorting": {
+      "sortBy": "Sort by",
+      "name": "name",
+      "email": "email",
+      "phone": "phone",
+      "orchards": "orchards",
+      "last_login_date": "last login date"
+    }
+  },
+  "list_header": {
+    "userName": "Name",
+    "userEmail": "Email Address",
+    "userPhone": "Phone number",
+    "corporateName": "Corporate Name",
+    "holdingName": "Holding Name",
+    "farmName": "Farm Name",
+    "orchadName": "Orchad Name",
+    "corporations": "Corporations",
+    "country": "Country",
+    "location": "Location",
+    "fruitType": "Fruit type",
+    "harvestDate": "Harvest date",
+    "lastMeasure": "Last measurements",
+    "size": "Size",
+    "forecastProd": "Forecast production",
+    "orchadsSize": "Total Orchad Size",
+    "users": "Users",
+    "orchads": "Orchads",
+    "status": "Status",
+    "last_login_date": "Last login date",
+    "orchards": "Orchards"
+  },
+  "add_corporate": {
+    "name": "Name",
+    "country": "Country",
+    "address": "Location",
+    "fruitType": "Fruit type",
+    "credit": "Credit (Nr of hectars)",
+    "submit": "+ Add corporate",
+    "users": "Administrator",
+    "addUser": "Add a new user",
+    "next": "Next",
+    "cancel": "Cancel",
+    "req": {
+      "required": "Das Feld ist erforderlich",
+      "alpha": "Das Feld  ist erforderlich.",
+      "email": "Das Feld  ist erforderlich.",
+      "phone": "Das Feld ist erforderlich.",
+      "min": ":attribute muss mindestens :min:type.",
+      "num": "This field must be numeric."
+    }
+  },
+  "general": {
+    "welcome": {
+      "title": "Welcome to Pixofarm",
+      "welcomeMessage": "Easily measure fruit size, get predictions and take the right actions to get the most out of your apple orchards.",
+      "addOrchad": "+ Add your first orchad",
+      "addFarm": "+ Add a farm",
+      "addFarmDesc": "Create a farm where you can add multiple orchads",
+      "addGroup": "+ Add a group",
+      "addGroupDesc": "Create a group, where you can have multiple farms and orchads"
+    }
+  },
+  "profile": {
+    "labels": {
+      "email": "Email address",
+      "phone": "Phone number",
+      "farm": "Farm",
+      "orchad": "Orchad(s)",
+      "role": "Role",
+      "member": "Member since ",
+      "measurements": "measurements"
+    },
+    "roles": {
+      "farmer": "Farmer"
+    }
+  },
+  "login": {
+    "username": "Username",
+    "password": "Password",
+    "submit": "Login"
+  },
+  "add_holding": {
+    "title": "Add a new holding",
+    "name": "Name",
+    "country": "Country",
+    "fruitType": "Fruit type",
+    "credit": "Credit (Nr of hectars)",
+    "submit": "+ Add holding",
+    "users": "Select corporate users",
+    "addUser": "Add a new user",
+    "req": {
+      "required": "Das Feld ist erforderlich",
+      "alpha": "Das Feld  ist erforderlich.",
+      "email": "Das Feld  ist erforderlich.",
+      "phone": "Das Feld ist erforderlich.",
+      "min": ":attribute muss mindestens :min:type."
+    }
+  },
+  "add_group": {
+    "title": "Add a new group",
+    "update_title": "Update group",
+    "name": "Name",
+    "submit": "+ Add group",
+    "update": "+ Update group",
+    "users": "Select corporate users",
+    "addUser": "Add a new user",
+    "req": {
+      "required": "Das Feld ist erforderlich",
+      "alpha": "Das Feld  ist erforderlich.",
+      "email": "Das Feld  ist erforderlich.",
+      "phone": "Das Feld ist erforderlich.",
+      "min": ":attribute muss mindestens :min:type."
+    }
+  },
+  "add_farm": {
+    "title": "Add a new farm",
+    "name": "Name",
+    "submit": "+ Add farm",
+    "user_assignation": "User assignation",
+    "user_role": "User role",
+    "group": "Group assignation",
+    "success": "Farm successfully saved",
+    "error": "Failed to save the farm",
+    "req": {
+      "required": "Das Feld ist erforderlich",
+      "alpha": "Das Feld  ist erforderlich.",
+      "email": "Das Feld  ist erforderlich.",
+      "phone": "Das Feld ist erforderlich.",
+      "min": ":attribute muss mindestens :min:type."
+    }
+  },
+  "add_group": {
+    "title": "Add a new group",
+    "name": "Name",
+    "submit": "+ Add group",
+    "user_assignation": "User assignation",
+    "user_role": "User role",
+    "group": "Group assignation",
+    "success": "Group successfully saved",
+    "error": "Failed to save the group",
+    "req": {
+      "required": "Das Feld ist erforderlich",
+      "alpha": "Das Feld  ist erforderlich.",
+      "email": "Das Feld  ist erforderlich.",
+      "phone": "Das Feld ist erforderlich.",
+      "min": ":attribute muss mindestens :min:type."
+    }
+  },
+  "settings_user": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "title": "User Settings",
+    "titleProfile": "Profile",
+    "first_name": "Full name",
+    "email": "Email Address",
+    "mobilenumber": "Phone Number",
+    "titleNotification": "Notification",
+    "alerts": "Alerts",
+    "automatically_aprove": "Automatically aprove",
+    "titleMeasurements": "Measurements",
+    "weight": "Weight",
+    "tones": "Tones",
+    "pounds": "Pounds",
+    "meters": "Meters",
+    "feet": "Feet",
+    "hectares": "Hectares",
+    "acres": "Acres",
+    "distance": "Distance",
+    "surface": "Surface",
+    "temperature": "Temperature",
+    "titleAssignation": "Assignation",
+    "userrole": "User role",
+    "orchards": "Orchards and structure"
+  },
+  "validator": {
+    "required": "This field is required.",
+    "alpha": "This field is not a valid alpha field.",
+    "email": "This field is not a valid email address.",
+    "phone": "This field is not a valid phone number.",
+    "min": ":attribute muss mindestens :min:type."
+  },
+  "orchad": {
+    "statuses": {
+      "active": "active",
+      "inactive": "inactive",
+      "pending": "pending",
+      "approve": "Approve & activate"
+    },
+    "headings": {
+      "update": "Last update",
+      "sizeClass": "Size class distribution",
+      "forecast": "Weather forecast",
+      "sHistory": "Sample history",
+      "wHistory": "Weather history"
+    },
+    "details": {
+      "farm": "Farm",
+      "farmer": "Farmer",
+      "status": "Status",
+      "fruitType": "Fruit Type",
+      "fruitVariety": "Fruit Variety",
+      "location": "Location",
+      "orchadSize": "Orchad Size",
+      "treesAge": "Age of trees",
+      "totalTrees": "Total trees",
+      "lastProd": "Last production",
+      "firstBloom": "First bloom date",
+      "anticipatedDate": "Anticipated harvest date",
+      "anticipatedProd": "Anticipated harvest production",
+      "averageDiameter": "Average diameter",
+      "predictedDiameter": "Predicted diameter",
+      "growthRate": "Growth rate",
+      "forecastProduction": "Forecast production"
+    },
+    "weather": {
+      "temperature": "Temperature",
+      "wind": "Wind speed",
+      "precipitation": "Precipitation",
+      "humidity": "Humidity",
+      "evapotranspiration": "Evapotranspiration",
+      "gdd": "GDD"
+    }
+  },
+  "add_orchard": {
+    "title": "Add a new orchard",
+    "name": "Orchard",
+    "fruitType": "Fruit type",
+    "submit": "+ Add farm",
+    "fruitVariaty": "Fruit variety",
+    "treesAge": "Age of trees",
+    "treesNum": "Number of trees",
+    "lastHarvestVolume": "Last harvest volume",
+    "firstBloomDate": "First bloom date",
+    "anticipatedHarvestTime": "Anticipated harvest time",
+    "administrator": "Administrator",
+    "location": "Orchard location",
+    "useMap": "Use the map to find your location",
+    "locationInput": "Latitude Longitude",
+    "sizeClassTitle": "Size class custom labels",
+    "step1": "1 General info",
+    "step2": "2 Orchard location",
+    "step3": "3 Administration",
+    "findLocationTitle": "Find the orchard location on the map",
+    "findLocationSubtitle1": "Using the drawing tool (right down corner)",
+    "findLocationSubtitle2": ", draw the shape of your orchard over the map",
+    "administrationTitle": "Administration defaults",
+    "finish": "Finish",
+    "next": "Next",
+    "cancel": "Cancel",
+    "assigned_farmer": "Assigned farmer",
+    "assigned_group_farm": "Assigned group or farm",
+    "req": {
+      "required": "Das Feld ist erforderlich",
+      "alpha": "Das Feld  ist erforderlich.",
+      "email": "Das Feld  ist erforderlich.",
+      "phone": "Das Feld ist erforderlich.",
+      "min": ":attribute muss mindestens :min:type."
+    }
+  },
+  "add_size_class": {
+    "name": "Name",
+    "from": "from",
+    "to": "to",
+    "add_label": "+ Add Label"
+  },
+  "PXCorporateDetails": {
+    "BiggestFruitDiameter": "Biggest fruit diameter (average)",
+    "HighestDailyGrowthRate": "Highest daily Growth rate",
+    "MostRecentlyMeasured": "Most recently measured",
+    "SmallestFruitDiameter": "Smallest fruit diameter (average)",
+    "LowestDailyGrowthRate": "Lowest daily Growth rate",
+    "LeastRecentlyMeasured": "Last recently measured"
+  },
+  "users_list": {
+    "reassign": {
+      "select_container": "Select orchards, farm or group",
+      "select_role": "Role",
+      "ok": "Done",
+      "cancel": "Cancel"
+    }
+  },
+  "dropnav": {
+    "select_title": "Select group to view",
+    "all": "All"
+  },
+  "list_groups": {
+    "header": "Groups",
+    "title": {
+      "name": "Orchard name",
+      "location": "Location",
+      "size": "Size",
+      "variety": "Fruit variety",
+      "measurement": "Last measurement",
+      "forecast": "Forecast production"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit",
+      "delete": "Delete"
+    },
+    "sorting": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "delete": {
+      "title": "Delete",
+      "message": "Are you sure you want to delete this group?",
+      "message_orchard": "Are you sure you want to delete this orchard?",
+      "ok": "Ok",
+      "cancel": "Cancel"
+    },
+    "activate_successfully": "Successfully activated the orchard",
+    "deactivate_successfully": "Successfully deactivated the orchard"
+  },
+  "list_farms": {
+    "header_group": "Farms for group: ",
+    "header_all": "Farms",
+    "no_farms": "No farms found",
+    "title": {
+      "name": "Orchard name",
+      "location": "Location",
+      "size": "Size",
+      "variety": "Fruit variety",
+      "measurement": "Last measurement",
+      "forecast": "Forecast production"
+    },
+    "actions": {
+      "view": "View",
+      "edit": "Edit"
+    },
+    "sorting": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    }
+  },
+  "list_orchards": {
+    "header_group": "Orchards for farm: ",
+    "header_all": "Orchards",
+    "no_orchards": "No orchards found",
+    "title": {
+      "name": "Orchard name",
+      "location": "Location",
+      "size": "Size",
+      "variety": "Fruit variety",
+      "measurement": "Last measurement",
+      "forecast": "Forecast production"
+    },
+    "sorting": {
+      "all": "All",
+      "active": "Active",
+      "inactive": "Inactive"
+    },
+    "actions": {
+      "deactivate": "Deactivate",
+      "activate": "Activate",
+      "edit": "Edit",
+      "assign_user": "Assign user(s)",
+      "assign_farm": "Reassign to farm or group"
+    }
+  }
+}

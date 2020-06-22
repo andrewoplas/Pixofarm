@@ -1,0 +1,31 @@
+@import '../../../assets/styles/variables/sizes.less';
+@import '../../../assets/styles/variables/typography.less';
+.user {
+    &.summary {
+        margin-bottom: @larger_Spacing;
+        .avatar {
+            margin-right: @medium_Spacing;
+        }
+        .role {
+            font-size: @standard_FontSize;
+        }
+        .actions {
+            margin-left: @large_Spacing;
+        }
+    }
+}
+.user-details {
+    .user-detail {
+        margin-bottom: @medium_Spacing;
+        .label {
+            font-size: @detailsLabel_FontSize;
+            font-weight: bold;
+        }
+        .value {
+            font-size: @standard_FontSize;
+            .value-row {
+                margin-bottom: @medium_Spacing;
+            }
+        }
+    }
+}

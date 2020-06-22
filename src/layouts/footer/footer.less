@@ -1,0 +1,33 @@
+@import '../../assets/styles/general.less';
+
+.footer {
+    padding-top: @big_Spacing;
+    height: @footer_Height;
+    box-sizing: border-box;
+
+    .language-selector {
+        .languages {
+            .current-language {
+                border: none;
+                background: none;
+                outline: none;
+            }
+            .languages-holder {
+                padding: @smaller_Spacing;
+            }
+            .language {
+                .flag {
+                    width: @language_Size;
+                    height: @language_Size;
+                    margin-right: @smallest_Spacing;
+                }
+                .label {
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+.footer-content {
+    max-width: @footer_Width;
+}

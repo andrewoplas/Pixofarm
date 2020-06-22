@@ -1,0 +1,170 @@
+@import '../../assets/styles/variables/typography.less';
+@import '../../assets/styles/variables/colors.less';
+@import '../../assets/styles/variables/sizes.less';
+
+.orchad-details {
+    .dark-bg {
+        padding: @inter_Spacing @large_Spacing;
+    }
+}
+.orchad-dates {
+    font-size: @standard_FontSize;
+    max-width: 155px;
+    .value {
+        font-weight: 700;
+    }
+    .icon {
+        height: @orchadDatesIcons_Size;
+        margin-bottom: @smallest_Spacing;
+        img {
+            height: 100%;
+        }
+    }
+}
+.heading-area {
+    .title-holder {
+        line-height: @headingDetailsTitle_lineHeight;
+        margin-bottom: @large_Spacing;
+        .title {
+            font-size: @headingDetailsTitle_FontSize;
+        }
+        .status-indicator {
+            width: @status_Size;
+            height: @status_Size;
+            border-radius: @status_Size;
+            margin-right: @smaller_Spacing;
+
+            &.inactive { background-color: @brand_Icons; }
+            &.pending { background: @brand_PendingBlend; }
+        }
+        .status {
+            margin-left: @smaller_Spacing;
+            margin-right: @smaller_Spacing;
+            &.pending { 
+                background: @brand_PendingBlend;
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent; }
+        }
+    }
+    .orchad-detail {
+        .value {
+            padding-left: @smallest_Spacing;
+            font-weight: 700;
+        }
+    }
+    .summary-holder {
+        .summary {
+            margin-bottom: @large_Spacing;
+            .detail {
+                font-size: @headingDetails_FontSize;
+                line-height: @headingDetails_lineHeight;
+                color: @brand_Text;
+            }
+        }
+    }
+}
+.additional-area {
+    margin-bottom: @large_Spacing;
+    &.map-details {
+        .map {
+            padding-right: @main_Spacing;
+        }
+    }
+    .harvest-details {
+        .orchad-detail {
+            .label {
+                font-size: @orchadHarvestLabel_FontSize;
+            }
+            .value {
+                font-size: @orchadHarvestValue_FontSize;
+                font-weight: 700;
+                color: @brand_Dark;
+            }
+            &.bottom {
+                margin-top: @doubled_Spacing;
+            }
+        }
+    }
+}
+.chart-area {
+    margin-bottom: @bigger_Spacing;
+    border-bottom: 1px solid @standard_Border;
+}
+.weather-area {
+    margin-top: @double_Spacing;
+    margin-bottom: @double_Spacing!important;
+
+    .week-summary {
+        padding-left: @larger_Spacing;
+    }
+}
+.weather-history-area {
+    padding: @main_Spacing;
+    .season-btn {
+        &.active-btn {
+            font-weight: 700;
+            color: @brand_Green;
+        }
+    }
+    .recharts-tooltip-wrapper {
+        background-color: @brand_Dark;
+    }
+    .recharts-active-dot {
+        circle {
+            fill: @brand_Dark!important;
+            stroke: @brand_Dark!important;
+        }
+    }
+}
+.chart-history-area {
+    .under-chart {
+        padding-top:@main_Spacing;
+        padding-bottom: @main_Spacing!important;
+        .value {
+            padding-bottom: @medium_Spacing;
+            font-weight: 700;
+        }
+        .label {
+            padding-bottom: @bigger_Spacing;
+        }
+    }
+}
+.weather-details {
+    .buttons-holder {
+        padding-top: @large_Spacing;
+    }
+}
+.orchad-map {
+    .inputRadioButtonSwitch {
+        order: 1;
+        margin-bottom: @bigger_Spacing;
+        min-width: @mapSwitch_Width;
+        height: @mapSwitch_Height;
+        background: @brand_DarkerSilver;
+        .btns {
+            height: @mapSwitch_Height;
+            &.alternative {
+                &.active {
+                    background: @brand_White;
+                    color: @brand_Green;
+                }
+            }
+        }
+    }
+    .section-map {
+        order: 2;
+    }
+}
+.recharts-tooltip-wrapper {
+    background-color: @brand_Green;
+    border-radius: @standard_BorderRadius;
+    padding: @smallest_Spacing @small_Spacing;
+    color: @brand_White;
+}
+.recharts-active-dot {
+    circle {
+        fill: @brand_Green!important;
+        stroke: @brand_Green!important;
+    }
+}

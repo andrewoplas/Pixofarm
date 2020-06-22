@@ -1,0 +1,182 @@
+@import './sizes.less';
+@import './typography.less';
+@import './colors.less';
+
+
+// Buttons and buttons holders //
+.btns {
+
+    color: @btn_Color;
+    height: @btns_Height;
+    background-color: @btn_Background;
+    border-radius: @input_BorderRadius;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+
+    a {
+        color: @btns_HrefColor;
+        &:hover {
+            color: @btns_HrefColor;
+            text-decoration: none;
+        }
+    }
+    &:hover {
+        color: @btns_HrefColor;
+        a {
+            color: @btns_HrefColor;
+            text-decoration: none;
+        }
+    }
+    &.alternative {
+        border: none;
+        background: transparent;
+        color: @btnlink_Color;
+        &.active {
+          background-color: @btn_Background;
+          color: @btn_Color;
+        }
+    }
+}
+.button-holder {
+    padding-top: @large_Spacing;
+}
+
+.btnlink{
+    color: @btnlink_Color;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+.file-input {
+    margin-right: @bigger_Spacing;
+    font-size: @standard_small_Heading;
+}
+
+input, select {
+    height: @input_Height;
+    width: 100%;
+    min-width: @input_minWidth;
+    border: 1px solid @input_Border;
+    border-radius: @standard_BorderRadius;
+    font-size: @input_FontSize;
+    line-height: @standard_LineHeight;
+    color: @input_Text;
+    margin-bottom: @medium_Spacing;
+    outline: none;
+    text-indent: 12px;
+    padding: 0;
+}
+::placeholder {
+    color: @input_Text;
+}
+.input-holder {
+    position: relative;
+    margin-bottom: @medium_Spacing;
+}
+.select__menu {
+    margin-top:0;
+}
+.select__control {
+    border-color: @input_Border!important;
+    box-shadow: none!important;
+
+    &--menu-is-open, &--is-focused, &:hover {
+        border-color: @input_Border!important;
+        box-shadow: none!important;
+    }
+    .select__value-container {
+        display: flex;
+        flex-wrap: nowrap;
+       
+        padding: 0px 8px;
+        .select__single-value {
+            margin: 0;
+        }
+        .css-b8ldur-Input {
+            padding: 0;
+            margin: 0;
+        }
+    }
+    .select__input {
+        input {
+            width: 100%;
+            border: 0px;
+            margin-bottom: 0;
+        }
+    }
+    .select__indicator {
+        color: @link_Color;
+    }
+    .select__clear-indicator {
+        color: @brand_Red;
+    }
+    .select__indicator-separator {
+        display: none;
+    }
+    .select__single-value {
+        color: @link_Color;
+    }
+}
+.react-datepicker-wrapper {
+    width: 100%;
+}
+
+//datepicker styles - I had to use important//
+.react-datepicker {
+    border: none!important;
+    .react-datepicker__month-container {
+        .react-datepicker__header {
+            background-color: @brand_Green;
+            border: none;
+            .react-datepicker__current-month {
+                font-size: 1rem;
+            }
+        }
+        .react-datepicker__month {
+            padding: 0.4rem;
+            margin: 0!important;
+            border-bottom-left-radius: @standard_BorderRadius;
+            border-bottom-right-radius: @standard_BorderRadius;
+            border: 1px solid @brand_Silver;
+        }
+        .react-datepicker__day, .react-datepicker__day-name {
+            width: 2rem;
+            line-height: 2rem;
+            margin: 0.25rem;
+        }
+        .react-datepicker__day-name, .react-datepicker__current-month{
+            color: @brand_White;
+            padding: @smallest_Spacing 0px;
+        }
+        .react-datepicker__day--selected,
+        .react-datepicker__day--keyboard-selected {
+            background-color: @brand_Green;
+            color: @brand_White;
+            outline: none;
+        }
+    }
+    .react-datepicker__triangle {
+        border-bottom-color: @brand_Green!important;
+        &::before {
+            border-bottom-color: @brand_Green!important;
+        }
+    }
+    .react-datepicker__navigation--next {
+        border-left-color: @brand_White;
+        margin: @smallest_Spacing 0px;
+    }
+    .react-datepicker__navigation--previous {
+        border-right-color: @brand_White;
+        margin: @smallest_Spacing 0px;
+    }
+}
+
+.inputRadioButtonSwitch {
+    padding: @switches_Padding;
+    border: 1px solid @buttonGroup_Border;
+    border-radius: @switches_Radius;
+    box-shadow: inset 0px 1px 4px rgba(0, 0, 0, 0.1);
+}

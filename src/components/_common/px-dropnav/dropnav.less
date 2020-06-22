@@ -1,0 +1,81 @@
+@import '../../../assets/styles/variables/sizes.less';
+@import '../../../assets/styles/variables/typography.less';
+@import '../../../assets/styles/variables/colors.less';
+.nav-dropdown {
+    .dropnav-container {
+        border: 1px solid @brand_Green;
+        border-radius: @standard_BorderRadius;
+        border-top-left-radius: 0;
+        font-size: @standard_FontSize;
+        max-width: @dropnav_Size;
+
+
+        &.uk-dropdown {
+            padding: @small_Spacing;
+            padding-top: @medium_Spacing;
+            box-shadow: none;
+            z-index: 1;
+            margin-top: -@smallest_Spacing;
+            top: @larger_Spacing + 2!important;
+        }
+        .main-items-list {
+            .item {
+                a {
+                    font-size: @standard_FontSize;
+                    text-transform: none;
+                }
+                .name {
+                    max-width: 150px;
+                }
+            }
+        }
+        .item {
+            padding: 0 0 @smallest_Spacing 0;
+        }
+        .secondary-items-list {
+            .item {
+                .name {
+                    max-width: 150px;
+                    white-space: nowrap;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    display: inline-block;
+                }
+            }
+
+        }
+    }
+    .dropdown-open {
+        padding: @small_Spacing;
+        transition: all 0.3s;
+        display: flex;
+        align-items: center;
+        &.uk-open {
+            border: 1px solid @brand_Green;
+            border-radius: @standard_BorderRadius;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            z-index: 999;
+            border-bottom: none;
+            background: #fff;
+
+            .uk-icon {
+                padding-left:0;
+                padding-bottom: @smallest_Spacing;
+                transform: rotate(90deg);
+            }
+        }
+    }
+}
+.uk-tab {
+    margin-left:0;
+}
+.uk-tab>.uk-active>a {
+    border-color: transparent;
+    color: @brand_Green;
+    font-weight: 700;
+}
+.uk-tab>*>a {
+    display: flex!important;
+    text-align: left;
+}
